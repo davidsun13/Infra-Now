@@ -38,11 +38,6 @@ body{
     z-index: 100;
     text-align: center;
 }
-.header i{
-    font-size: 6rem;
-    color: white;
-}
-
 .heading{
     font-size: 3.5rem;
     margin-bottom: 3rem;
