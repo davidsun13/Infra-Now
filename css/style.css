@@ -38,6 +38,11 @@ body{
     z-index: 100;
     text-align: center;
 }
+.header i{
+    font-size: 6rem;
+    color: white;
+}
+
 .heading{
     font-size: 3.5rem;
     margin-bottom: 3rem;
@@ -115,7 +120,64 @@ section{
     height: 300px;
     float: right;
     margin-left: 20px;
-}   
+}  
+.assistance {
+    display: flex;
+    align-items: center;
+    padding: 0 7%;
+}
+.assistance-content a{
+    color:#309c76;
+    font-size: 6rem;
+}
+.assistance-content {
+    max-width: 70rem;
+    display: flex;
+    align-items: center; 
+}
+.loc {
+    display: flex;
+    align-items: center;
+    padding: 0 7%;
+}
+.loc a{
+    color:#309c76;
+    font-size: 6rem;
+}
+.loc-content img{
+    height: 50px;
+    margin: 10px;
+}
+.loc-content {
+    max-width: 70rem;
+    display: flex;
+    align-items: center; 
+}
+.text-content{
+    font-size: 2rem;
+}
+
+.assistance-content img {
+    flex: 0 0 auto; 
+}
+
+.assistance-content .text-content {
+    padding-left: 20px; 
+}
+
+.assistance-content h1 {
+    font-size: 2.6rem;
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+.assistance-content p {
+    font-size: 1.6rem;
+    margin: 2rem 0 4rem;
+}
+.button-content{
+    align-self: flex-end;
+}
 .btn-box{
     position: relative;
     display: inline-flex;
@@ -259,7 +321,4 @@ section{
 .footer-text{
     color: #309c76;
     font-size: 1.6rem;
-}
-.footer a{
-    color: #309c76;
 }
