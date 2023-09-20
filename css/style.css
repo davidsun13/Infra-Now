@@ -39,8 +39,7 @@ body{
     text-align: center;
 }
 .header i{
-    font-size: 6rem;
-    color: white;
+    font-size: 4rem;
 }
 
 .heading{
@@ -322,3 +321,8 @@ section{
     color: #309c76;
     font-size: 1.6rem;
 }
+
+.dark-mode {
+    background-color: black;
+    color: white;
+  }
